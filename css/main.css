@@ -1,0 +1,75 @@
+/*got it from this codepen: https://codepen.io/DanDan/pen/ALylw*/
+:root{
+	--dark-:#333;
+	--light-: #fff;
+
+	--main-: #5F00BA;
+	--sub-: #A09BE7;
+}
+
+body {
+	background-color: var(--light-);
+	color: var(--dark-);
+}
+
+h4 {
+	font-size: 16px;
+	color: var(--dark-);
+	font-family: sans-serif;
+}
+
+h3 {
+	color: var(--dark-);
+	font-family: sans-serif;
+	
+}
+
+p {
+	font-size: 14px;
+	text-align: right;
+	line-height: 1.5em;
+	color: var(--dark-);
+	font-family: sans-serif;
+}
+
+#caption {
+	top: auto;
+	z-index: 1;
+	width: auto;
+	text-align: right;
+	position: relative;
+}
+
+a {
+	transition: 0.5s;
+	font-weight: 600;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+a:hover{
+	transition: 0.5s;
+	font-weight: 600;
+	opacity: 0.4!important;
+}
+
+#displayCanvas {
+	z-index: 0;
+}
+
+/*#own code*/
+p#caption + p{
+	font-weight: 600;
+	font-style: italic;
+}
+
+form{
+	margin: 20px;
+	width: 400px;
+	float: right;
+}
+
+body, html{
+	margin: 0;
+	padding: 0;
+}
