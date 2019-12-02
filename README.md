@@ -2,7 +2,7 @@
 First of all, big thanks to Danny: here is his [Codepen](https://codepen.io/DanDan) and the [pen](https://codepen.io/DanDan/pen/ALylw) I got this from.
 
 ### Why did I create this?
-> We want to see how others interpret the clothing and what their creative vision is.
+> _"We want to see how others interpret the clothing and what their creative vision is."_
 
 This was a mail i've received from the Rezareez team. They wanted me and other creatives 
 to create something we found fitting of the Rezareez brand and clothing style.
