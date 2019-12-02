@@ -13,7 +13,7 @@ function randomIntFromInterval(min, max) { // min and max included
 }
 
 const randomNrSpeed = randomIntFromInterval(1, 20);
-const randomSize = randomIntFromInterval(1, 150);
+const randomSize = randomIntFromInterval(10, 150);
 const randomIterations = randomIntFromInterval(1, 9);
 const randomCircles = randomIntFromInterval(1, 5);
 
