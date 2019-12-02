@@ -1,0 +1,43 @@
+
+<!-- got it from this codepen: https://codepen.io/DanDan/pen/ALylw-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  
+	<link rel="stylesheet" href="css/main.css">
+	<title>Reza viz</title>
+</head>
+<body>
+	<div id="container"> 
+    <canvas id="displayCanvas">
+        Your browser does not support HTML5 canvas.
+    </canvas>
+    <form>
+    <p id="caption">
+        <input ,="" id="btnRegenerate" value="Erase current piece and create a new one" type="button">
+      <input ,="" id="btnExport" value="Export image (png)" type="button">
+        <p id="title">MIXED COLOURS || UNEXPECTED</p>
+        <p>I used a <a id="linkChange" target="_blank" href="https://codepen.io/DanDan/pen/ALylw">codepen</a>
+          I found to mix two colours that were predominantly used in the shoot for <a id="linkChange-2" target="_blank" href="https://www.instagram.com/rezareez/?hl=en">Rezareez</a>.</p>
+        <p>It generates new "pieces" everytime you reload it or press the 'erase' button. You can also choose to export
+          the current image. It will go as wide as your screen allows it to go.
+        </p>
+        <p>
+          The original codepen wasn't responsive, I made the canvas responsive. It also didn't have most of the randomized
+          features I added. I wanted to make sure you wouldn't see the same "piece".
+        </p>
+
+        <p>Thank you <a id="linkChange-3" target="_blank" href="https://codepen.io/DanDan">Danny</a> for creating this in the first place!</p>
+    </p>
+    </form>
+  </div>  
+</body>
+
+<script src="js/script.js"></script>
+<script src="js/modernizr-custom.js"></script>
+
+<html>
