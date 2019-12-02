@@ -19,5 +19,5 @@ I randomized the :
 * maxRad
 * minRad
 * Amount of circles
-* Amount of iterations.
+* Amount of iterations
 
