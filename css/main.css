@@ -64,7 +64,7 @@ p#caption + p{
 }
 
 form{
-	margin: 20px;
+	padding: 20px;
 	width: 400px;
 	float: right;
 }
