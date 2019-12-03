@@ -1,6 +1,8 @@
 # generativePieces
 First of all, big thanks to Danny: here is his [Codepen](https://codepen.io/DanDan) and the [pen](https://codepen.io/DanDan/pen/ALylw) I got this from.
 
+I've also found the person who originally made this [here](https://twitter.com/rectangleworld). Here is his blog:[Rectangle World](http://rectangleworld.com/blog/).
+
 ### Why did I create this?
 > _"We want to see how others interpret the clothing and what their creative vision is."_
 
