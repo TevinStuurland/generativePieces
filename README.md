@@ -21,3 +21,6 @@ I randomized the :
 * Amount of circles
 * Amount of iterations
 
+### What's next?
+Make the resolution of the drawings bigger.
+
