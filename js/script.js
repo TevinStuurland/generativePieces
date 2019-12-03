@@ -113,8 +113,8 @@ function canvasApp() {
 		//number of curves to draw on every tick of the timer
 		drawsPerFrame = 8;
 		
-		bgColor = "#FFFFFF";
-		urlColor = "#EEEEEE";
+		bgColor = "rgba(0,0,0,0)";
+		urlColor = "rgba(0,0,0,0)";
 		
 		lineWidth = 2.01;
 		
@@ -332,8 +332,8 @@ function canvasApp() {
 		imageWindow.document.write("<title>Export Image</title>")
 		imageWindow.document.write("<img id='exportImage'"
 									+ " alt=''"
-									+ " height='" + displayHeight + "'"
-									+ " width='"  + displayWidth  + "'"
+									+ " height='" + displayHeight * 2+ "'"
+									+ " width='"  + displayWidth * 2+ "'"
 									+ " style='position:absolute;left:0;top:0'/>");
 		imageWindow.document.close();
 		//copy the image into the empty img in the newly opened window:
