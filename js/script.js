@@ -4,7 +4,7 @@ canvas = document.getElementById('displayCanvas');
 //Own Code
 // Set canvas dimensions
 canvas.width = window.innerWidth;
-canvas.height = window.innerHeight - 300;
+canvas.height = window.innerHeight - 200;
 
 window.addEventListener("load", windowLoadHandler, false);
 
