@@ -1,5 +1,5 @@
 // got it from this codepen: https://codepen.io/DanDan/pen/ALylw
-canvas = document.getElementById('displayCanvas');
+canvas = document.getElementById('canvas');
 
 //Own Code
 // Set canvas dimensions
@@ -13,11 +13,11 @@ function randomIntFromInterval(min, max) { // min and max included
 }
 
 const randomNrSpeed = randomIntFromInterval(1, 20);
-const randomSize = randomIntFromInterval(10, 150);
+const randomSize = randomIntFromInterval(20, 150);
 const randomIterations = randomIntFromInterval(1, 9);
 const randomCircles = randomIntFromInterval(1, 5);
 
-let colorChange = ['#A80874','#AA4465','#F7B32B', '#BAD7F2', '#EF626C', '#84DCCF', '#4357AD', '#B3001B', '#9593D9', '#D64550'];
+const colorChange = ['#A80874','#AA4465','#F7B32B', '#BAD7F2', '#EF626C', '#84DCCF', '#4357AD', '#B3001B', '#9593D9', '#D64550'];
 
 const randomValue = colorChange[Math.floor(colorChange.length * Math.random())];
 
@@ -54,7 +54,7 @@ function canvasApp() {
 		return;
 	}
 	
-	var displayCanvas = document.getElementById("displayCanvas");
+	var displayCanvas = document.getElementById("canvas");
 	var context = displayCanvas.getContext("2d");
 	var displayWidth = displayCanvas.width;
 	var displayHeight = displayCanvas.height;
@@ -333,7 +333,8 @@ function canvasApp() {
 		imageWindow.document.write("<img id='exportImage'"
 									+ " alt=''"
 									+ " height='" + displayHeight * 2+ "'"
-									+ " width='"  + displayWidth * 2+ "'"
+									+ " height='" + displayHeight + "'"
+									+ " width='"  + displayWidth + "'"
 									+ " style='position:absolute;left:0;top:0'/>");
 		imageWindow.document.close();
 		//copy the image into the empty img in the newly opened window:
@@ -346,5 +347,4 @@ function canvasApp() {
 	}
 	
 }
-
 
