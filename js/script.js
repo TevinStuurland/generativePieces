@@ -332,7 +332,6 @@ function canvasApp() {
 		imageWindow.document.write("<title>Export Image</title>")
 		imageWindow.document.write("<img id='exportImage'"
 									+ " alt=''"
-									+ " height='" + displayHeight * 2+ "'"
 									+ " height='" + displayHeight + "'"
 									+ " width='"  + displayWidth + "'"
 									+ " style='position:absolute;left:0;top:0'/>");
